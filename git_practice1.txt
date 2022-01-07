@@ -1,0 +1,171 @@
+    1  cd Desktop/
+    2  ls
+    3  ls
+    4  gpg test.txt
+    5  gpg -c test.txt
+    6  cd Desktop/
+    7  ls
+    8  mkdir Sneha_repo
+    9  cd Sneha_repo/
+   10  ls
+   11  git
+   12  which git
+   13  git --version
+   14  history 2
+   15  ls -a
+   16  ls -a
+   17  cd ..
+   18  ls
+   19  cd Sneha_repo
+   20  git init
+   21  ls -a
+   22  cd .git
+   23  ls 
+   24  cd hooks/
+   25  ls
+   26  cd ..
+   27  ls
+   28  ls
+   29  cd ..
+   30  ls
+   31  vi my_first_code.txt 
+   32  git status
+   33  git add my_first_code
+   34  git add my_first_code.txt
+   35  git status
+   36  git commit -m "this is my first commit" 
+   37  git log
+   38  git config --global user.name
+   39  git config --global user.name "sneha firangi"
+   40  git config --global user.email "snehafirangi1768@gmail.com"
+   41  vi my_first_code.txt
+   42  git status
+   43  git add my_first_code.txt
+   44  git status
+   45  git commit -m "this is my second commit"
+   46  git log
+   47  git log
+   48  git branch
+   49  git branch development_branch
+   50  git branch
+   51  git checkout development_branch
+   52  git branch
+   53  ls
+   54  cat my_first_code.txt
+   55  vi my_first_code.txt
+   56  git status
+   57  git add .
+   58  git status
+   59  git commit -m "this is my third commit on development branch"
+   60  git status
+   61  git log
+   62  git branch
+   63  cat my_first_code.txt
+   64  git checkout master
+   65  cat my_first_code.txt
+   66  cat my_first_code.txt
+   67  git merge development_branch
+   68  cat my_first_code.txt
+   69  vi my_first_code.txt
+   70  git status
+   71  git add .
+   72  git status
+   73  git commit -m "this commit is done on master branch"
+   74  git status
+   75  git log
+   76  git log -1
+   77  git log -2
+   78  git log -3
+   79  git checkout development_branch
+   80  git branch
+   81  cat my_first_code.txt
+   82  git merge master
+   83  cat my_first_code.txt
+   84  ls 
+   85  cd ..
+   86  pwd
+   87  mkdir dir1
+   88  mkdir snehadir
+   89  vi text.txt
+   90  cd snehadir
+   91  ls
+   92  vi snn.txt
+   93  git status
+   94  git init
+   95  git status
+   96  git 
+   97  cd ..
+   98  cd is_it_repo_or_just_dir?
+   99  mkdir is_it_localrepo_or_just_dir?
+  100  cd is_it_localrepo_or_just_dir?/
+  101  ls
+  102  ls -a
+  103  vi test.txt
+  104  git status
+  105  git add .
+  106  git init
+  107  git status
+  108  cd 
+  109  ls
+  110  cd Desktop/
+  111  ls
+  112  ls
+  113  mkdir sneha_disk_space
+  114  cd sneha_disk_space/
+  115  ls
+  116  git clone https://github.com/firangisneha/my_first_repo.git
+  117  ls
+  118  cd my_first_repo/
+  119  ls
+  120  cat README.md 
+  121  vi first_push.txt
+  122  git status
+  123  git log
+  124  git config --global user.email "snehafirangi1768@gmail.com"
+  125  git status
+  126  git add .
+  127  git commit -m "this is last commit"
+  128  ls
+  129  git log
+  130  git config -- global user.email "snehafirangi1768@gmail.com"
+  131  git config --global user.email "snehafirangi1768@gmail.com"
+  132  touch test 
+  133  git status
+  134  git add .
+  135  git commit -m "test"
+  136  git log
+  137  git config --global user.name "snehafirangi" 
+  138  git config --global user.email "snehafirangi@gmail.com" 
+  139  touch test2
+  140  git add .
+  141  git commit -m "test2"
+  142  git log 
+  143  git branch
+  144  ls
+  145  git push 
+  146  git login
+  147  login
+  148  git login
+  149  git log
+  150  git config --global user.name "firangisneha"
+  151  git config --global user.email "snehafirangi1768@gmail.com"
+  152  git push 
+  153  git push https://github.com/firangisneha/my_first_repo.git
+  154  git remote set-url origin https://github.com/firangisneha/my_first_repo.git
+  155  git push
+  156  git config --global credential.helper
+  157  git remote -v
+  158  git push
+  159  git config --global --unset user.name
+  160  git config --global --unset user.email
+  161  git push
+  162  %USERPROFILE%\.git-credentials
+  163  git config credential-manager
+  164  type %USERPROFILE%\.git-credentials
+  165  git config --global user.name "firangisneha"
+  166  git config --global user.email "snehafirangi1768@gmail.com"
+  167  git push
+  168  git push
+  169  git push
+  170  history 
+  171  history > git_practice1.txt
