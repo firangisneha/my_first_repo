@@ -1,0 +1,77 @@
+##-----programs on strings------##
+1.  program to find vowels,consonants and whitespaces
+Ans:class Demo{
+    public static void solve(String str,int length){
+    str=str.toLowerCase();
+    int vowels=0,consonants=0,whitespaces=0;
+    char ch=str.charAt(i);
+    if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u')
+    vowels++;
+    else if(ch>='a'&& ch<='z')
+    consonants++;
+    else if(ch=='')
+    whitespaces++;
+    }
+    System.out.println("vowels is"+vowels);
+    System.out.println("consonants is"+consonants);
+    System.out.println("whitespaces is"+whitespaces);
+    }
+    public static void main(String[]args){
+    String str="Take u forward is awesome";
+    int length=str.length();
+    solve(str,length);
+    }
+      }
+      
+2.  Program to find ASCII values
+Ans:class Demo{
+    public static void main(String[]args)
+    {
+    char c='A';
+    int ascii=c;
+    System.out.println("the value of"+c+"is:"+ascii);
+    }
+    }
+    
+3.  Program to removespace 
+Ans:class demo{
+    static int removeSpace(char[]str){
+    int count=0;
+    for(int i=0;i<str.length;i++)
+    if(str[i]!=''){
+    str[count]=str[i];
+    count++;
+    }
+    return count;
+    }
+    public static void main(String[]args){
+    char[]str="Take you forword".toCharArray();
+    int count=removeSpace(str);
+    System.out.println(String.valueOf(str).subSequence(0,count));
+    }
+    }
+    
+4.  Program to removevowels in java
+Ans:public class RemoveVowels {
+    public static String RemoveVowels(String str){
+    for(int i=0;i<str.length();i++){
+    if(str.charAt(i)=='a'||str.charAt(i)=='e'||str.charAt(i)=='i'||str.charAt(i)=='o'||str.charAt(i)=='u'||
+    	str.charAt(i)=='A'||str.charAt(i)=='E'||str.charAt(i)=='I'||str.charAt(i)=='O'||str.charAt(i)=='U')
+    		{
+    		str=str.substring(0,i)+str.substring(i+1);
+    			i--;
+    			}
+    		}
+    	return str;
+    }
+    
+	public static void main(String[] args) {
+		String str="take u forword";
+		System.out.println("String after removing the vowels\n"+RemoveVowels(str));
+    }
+    }
+    
+5.  Program t    
+    
+      
+
